@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&family=Roboto+Condensed:wght@400;700&display=swap');
+
+* {
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+}
+
+.container {
+    grid-gap: 10px; 
+    width: 1440px;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #131313;
+}
+
+header  {
+    background: #131313;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    height: 90px;
+}
+
+.logo   {
+    margin: 0 20px;
+}
+
+.idioma {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: #72AE43;
+    padding: 10px 12px;
+    background-color: #212121;
+    border-radius: 60px;
+    margin-right: 31px;
+}
+
+.busca  {
+    width: 740px;
+    height: 70px;
+    border: solid 1px #363636;
+    background-color: #131313;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: #535353;
+    line-height:65px;
+    padding-left: 10px;
+
+}
+
+.menuguia  {
+    font-weight: 700;
+    margin-left: 10px;
+    background-color: #212121;
+    padding: 33px 18px 32px 18px;
+}
+
+.menublog  {
+    font-weight: 700;
+    background-color: #363636;
+    padding: 33px 25px 32px 25px;
+}
+
+.menuhamburger   {
+    background-color: #535353;
+    width: 105px;
+    height: 89px;
+
+}
+
+
+.hero {
+    background: #1D1D1D;
+    background-image: url("images/hero/hero-01.jpg")  ;
+    width: 1440px;
+    height: 500px;
+}
+
+.herotitle {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    text-transform: uppercase;
+    line-height: 1.15em; 
+    letter-spacing: -1.5px;
+    color: #ffffff;
+    padding: 273px 0 0 73px;
+    margin: 0;
+    
+}
+
+.herodescription {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.15em;
+    width: 350px;
+    letter-spacing: -0.5px;
+    color: #ffffff;
+    padding: 10px 0 0 73px;
+    margin: 0;
+}
+
+.herosaibamais {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.15em;
+    width: 350px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #72AE43;
+    padding: 20px 0 0 73px;
+    margin: 0;
+}
+
+
+.materiaiscultivo {
+    background: #131313;
+}
+
+
+
+.materiaiscultivo h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+    line-height: 1.15em; 
+    letter-spacing: -1.5px;
+    color: #ffffff;
+    text-align: center;
+    padding: 60px 0 22px 0;
+    
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.boxmateriaiscultivo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: #1D1D1D;
+    margin-bottom: 96px;
+    border-radius: 10px;
+}
+
+.boxmateriaiscultivo p {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.boxmateriaiscultivo img {
+    width: 118px;
+    margin-top: 15px;
+
+}
+
+.boxmateriaiscultivo img {
+    margin-bottom: 20px;
+}
+
+.destaqueebook {
+    background: #1D1D1D;
+    background-image: url(/images/destaque-ebook.jpg);
+    height: 430px;
+}
+
+.destaqueblog {
+    background: #131313;
+}
+
+.boxnewsletter {
+    background: #1D1D1D;
+}
+
+.destaquecurso {
+    background: #131313;
+}
+
+.destaquestrains {
+    background: #1D1D1D;
+}
+
+footer {
+    background: #131313;
+}
