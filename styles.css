@@ -186,7 +186,7 @@ header  {
     background: #131313;
 }
 
-.destaqueblog h2 {
+.tit-destaqueblog {
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 700;
     font-size: 40px;
@@ -204,13 +204,24 @@ header  {
     column-gap: 20px;
 }
 
-.box-posts-blog {
+.box-posts-01-blog {
     width: 640px;
-    height: 365px;
+    height: 359px;
     background-color: #363636;
+    background-image: url("images/post-01.jpg");
     border-radius: 10px;
-    margin-bottom: 58px;
+    margin-bottom: 54px;
 }
+
+.box-posts-02-blog {
+    width: 640px;
+    height: 359px;
+    background-color: #363636;
+    background-image: url("images/post-02.jpg");
+    border-radius: 10px;
+    margin-bottom: 54px;
+}
+
 
 .tit-blog {
     color: #72AF43;
@@ -232,8 +243,39 @@ header  {
 }
 
 .boxnewsletter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: #1D1D1D;
+    width: 1300px;
+    height: 183px;
+    margin: 0 auto 0 auto;
+    border-radius: 10px;
 }
+
+.tit-newsletter {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    text-transform: uppercase;
+    line-height: 1.15em; 
+    letter-spacing: -1.5px;
+    color: #72AF43;
+    margin-left: 32px;
+}
+
+
+
+.boxnewsletter p {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 32px;
+    letter-spacing: -0.5px;
+}
+
+
 
 .destaquecurso {
     background: #131313;
