@@ -184,6 +184,7 @@ header  {
 
 .destaqueblog {
     background: #131313;
+    padding-bottom: 60px;
 }
 
 .tit-destaqueblog {
@@ -279,6 +280,38 @@ header  {
 
 .destaquecurso {
     background: #131313;
+}
+
+.banner-curso {
+    background-image: url("images/destaque-curso.jpg");
+    height: 430px;
+    padding: 114px 0 0 180px;
+}
+
+.banner-curso h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    text-transform: uppercase;
+    line-height: 1.15em; 
+    letter-spacing: -1.5px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.banner-curso button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    height: 54px;
+    width: 258px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    background-color: #72AE43;
+    border-radius: 10px;
+    border: 0px;
+    padding: 0 15px;
 }
 
 .destaquestrains {
